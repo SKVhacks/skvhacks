@@ -258,7 +258,7 @@ body{
 .box{
     transition: transform .5s ease-in-out;
     height: 400px;
-    width: 520px;
+    width: 800px;
     background-color: rgba(255, 255, 255,0.2);
     border-radius: 25px ;
     gap: 30px;
@@ -307,7 +307,7 @@ width:800px;
 
 .container1 .box img{
     height: 200px;
-    width: 470px;
+    width: 750px;
     margin: 30px 25px auto 25px;
     object-fit: fill;
     border-radius: 10px;
