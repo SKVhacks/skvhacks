@@ -79,7 +79,7 @@
         }</script> -->
 
         
-        <div class="space1">
+        <div class="navbar">
          <img src="image/logo.png" alt="logo">
          <p>SKV Hacks</p>
          <ul>
@@ -98,59 +98,71 @@
 
 
 
-    <div class="s1">
-        <div class="slider">
-         <div class="slides">
-           <!--radio buttons start-->
-           <input type="radio" name="radio-btn" id="radio1">
-           <input type="radio" name="radio-btn" id="radio2">
-           <input type="radio" name="radio-btn" id="radio3">
-           <input type="radio" name="radio-btn" id="radio4">
-           <!--radio buttons end-->
-           <!--slide images start-->
-           <div class="slide first">
-             <img src="image/ir_blynk.jpg" alt="">
-           </div>
-           <div class="slide">
-             <img src="image/oled_jammer.jpg" alt="">
-           </div>
-           <div class="slide">
-             <img src="image/alexa_manual.jpg" alt="">
-           </div>
-           <div class="slide">
-             <img src="image/w_s.jpg" alt="">
-           </div>
-           <!--slide images end-->
-           <!--automatic navigation start-->
-           <div class="navigation-auto">
-             <div class="auto-btn1"></div>
-             <div class="auto-btn2"></div>
-             <div class="auto-btn3"></div>
-             <div class="auto-btn4"></div>
-           </div>
-           <!--automatic navigation end-->
+        <div class="slideshow-container">
+         <div class="mySlides fade">
+             <div class="numbertext">1 / 3</div>
+             <img src="image/w_s.jpg" style="width:100%">
+             <div class="text">ESP8266 Weather Station</div>
          </div>
-         <!--manual navigation start-->
-         <div class="navigation-manual">
-           <label for="radio1" class="manual-btn"></label>
-           <label for="radio2" class="manual-btn"></label>
-           <label for="radio3" class="manual-btn"></label>
-           <label for="radio4" class="manual-btn"></label>
+         <div class="mySlides fade">
+             <div class="numbertext">2 / 3</div>
+             <img src="image/oled_jammer.jpg" style="width:100%">
+             <div class="text">ESP8266 Wi-Fi Deauther</div>
          </div>
-         <!--manual navigation end-->
-       </div>
-      </div>
+         <div class="mySlides fade">
+             <div class="numbertext">3 / 3</div>
+             <img src="image/ir_blynk.jpg" style="width:100%">
+             <div class="text">Home Automation using Blynk[IR,Manual]</div>
+         </div>
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+     <br>
+     <!-- <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+     </div> -->
        <!--image slider end-->
    
-       <script type="text/javascript">
-       var counter = 1;
-       setInterval(function(){
-         document.getElementById('radio' + counter).checked = true;
-         counter++;
-         if(counter > 4){
-           counter = 1;
-         }
-       }, 2500);
+       <script>
+         var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
+// Auto Slide   if you need auto slide ,remove the commit "//"
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+   var slides = document.getElementsByClassName("mySlides");
+   for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+   }
+   slideIndex++;
+   if (slideIndex > slides.length) { slideIndex = 1 }
+   slides[slideIndex - 1].style.display = "block";
+   setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
        </script>
 
 
@@ -172,22 +184,44 @@
                 <img src="image/ir_blynk.jpg">
                <h1>IR Home Automation</h1> 
                <p>IR Remote Control Home Automation Using NodeMCU with <span>Blynk</span> legacy(old version) </p> 
+               <div class="hilighter">
+                  <div class="hilight">
+                  <p>#ESP8266</p>
+               </div>
+               <!-- <div class="hilight1">
+                  <p>#Arduino</p>
+               </div> -->
+               </div>
             </a>
       
                </div>
             
                
                <div class="box">
+                  <a href="#">
                   <img src="image/oled_jammer.jpg">
                   <h1>OLED ESP8266 Deauther</h1>
                   <p>2.5Ghz Wi-Fi Deauther Using NodeMCU(esp8266) with 0.96inch OLED Display (I2C)</p>
-               </div>
+                  <div class="hilighter">
+                     <div class="hilight">
+                     <p>#ESP8266</p>
+                  </div>
+                  <!-- <div class="hilight1">
+                     <p>#Arduino</p>
+                  </div> --></div></a>        </div>
 
                <div class="box">
+                  <a href="#">
                 <img src="image/w_s.jpg">
                 <h1><center>Weather Station</center></h1>
-                <p>Open Weather Map | Weather Station Using NodeMCU with 0.96inch OLED Display (I2C) | 100% Real Time Weather</p>
-             </div>
+                <p>Open Weather Map | Weather Station Using NodeMCU with 0.96inch OLED Display (I2C) </p>
+                <div class="hilighter">
+                  <div class="hilight">
+                  <p>#ESP8266</p>
+               </div>
+               <!-- <div class="hilight1">
+                  <p>#Arduino</p>
+               </div> --></div></a>      </div>
 
 
 
@@ -195,21 +229,39 @@
      <!-- </div>
      <div class="space"></div> -->
      <!-- <div class="container1">  -->
-         <div class="box">
+         <div class="box"><a href="#">
             <img src="image/blynk_manual.png">
             <h1>Blynk Manual Switch</h1>
             <p>Manual Switch | Home Automation Using NodeMCU With <span>Blynk</span> legacy (old version)</p>
-        </div>
-     <div class="box">
+            <div class="hilighter">
+               <div class="hilight">
+               <p>#ESP8266</p>
+            </div>
+            <!-- <div class="hilight1">
+               <p>#Arduino</p>
+            </div> --></div></a>  </div>
+     <div class="box"><a href="#">
         <img src="image/alexa_manual.jpg">
         <h1>Alexa Home Automation </h1>
         <p>Alexa Voice Assistant | Manual Switch | Home Automation Using NodeMCU With Sinric</p>
-    </div>
-     <div class="box">
+        <div class="hilighter">
+         <div class="hilight">
+         <p>#ESP8266</p>
+      </div>
+      <!-- <div class="hilight1">
+         <p>#Arduino</p>
+      </div> --></div></a></div>
+     <div class="box"><a href="#">
         <img src="image/H_A_alexa.jpg">
         <h1>Alexa Home Automation</h1>
         <p>Alexa Voice Assistant | Mobile Application | Home Automation Using NodeMCU With Sinric</p>
-    </div>
+        <div class="hilighter">
+         <div class="hilight">
+         <p>#ESP8266</p>
+      </div>
+      <!-- <div class="hilight1">
+         <p>#Arduino</p>
+      </div> --></div></a></div>
    <!-- </div> -->
 
 
@@ -218,38 +270,68 @@
 
 
 
-     <!-- <div class="space1"></div> -->
+     <!-- <div class="navbar"></div> -->
         <!-- <div class="container1">  -->
          
-             <div class="box">
+             <div class="box"><a href="#">
                 <img src="image/blynk.jpg" >
                 <h1>Blynk Home Automation</h1>
                 <p> Home Automation Using NodeMCU With <span>Blynk</span>legacy</p>
-             </div>
-             <div class="box">
+                <div class="hilighter">
+                  <div class="hilight">
+                  <p>#ESP8266</p>
+               </div>
+               <!-- <div class="hilight1">
+                  <p>#Arduino</p>
+               </div> --></div></a>     </div>
+             <div class="box"><a href="#">
                 <img src="image/door_alaram.jpg">
                 <h1>Door Alaram Mobile Notification</h1>
                 <p>Door Open Alaram Alert | Instant Mobile Notification | NodeMCU with <span>Blynk</span>legacy</p>
-             </div>
-             <div class="box">
+                <div class="hilighter">
+                  <div class="hilight">
+                  <p>#ESP8266</p>
+               </div>
+               <!-- <div class="hilight1">
+                  <p>#Arduino</p>
+               </div> --></div></a>      </div>
+             <div class="box"><a href="#">
                 <img src="image/extender.png">
                 <h1>Wi-Fi Extender</h1>
                 <p>Low Cost Wi-Fi Extender Using NodeMCU</p>
-             </div>
+                <div class="hilighter">
+                  <div class="hilight">
+                  <p>#ESP8266</p>
+               </div>
+               <!-- <div class="hilight1">
+                  <p>#Arduino</p>
+               </div> --></div> </a>    </div>
          
      <!-- </div> -->
      <!-- <div class="space"></div> -->
      <!-- <div class="container1">  -->
-        <div class="box">
+        <div class="box"><a href="#">
             <img src="image/jammer.jpg">
             <h1>Wi-Fi Deauther</h1>
             <p>No Need PC | Recquire Mobile For Upload Code | 2.5Ghz Wi-Fi Deauther Using NodeMCU</p>
-        </div>
-     <div class="box">
+            <div class="hilighter">
+               <div class="hilight">
+               <p>#ESP8266</p>
+            </div>
+            <!-- <div class="hilight1">
+               <p>#Arduino</p>
+            </div> --></div> </a> </div>
+     <div class="box"><a href="#">
         <img src="image/tutorial.jpg">
         <h1>Begin With NodeMCU</h1>
         <p>Let's Start With Making Ant IOT Project In NodeMCU | Getting Started</p>
-    </div>
+        <div class="hilighter">
+         <div class="hilight">
+         <p>#ESP8266</p>
+      </div>
+      <!-- <div class="hilight1">
+         <p>#Arduino</p>
+      </div> --></div></a></div>
      <!-- <div class="box" style="display: none;"><img src="im/22.jpg"></div></div> -->
      <!-- <div class="space"> -->
 
