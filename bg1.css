@@ -239,8 +239,8 @@ img {
   }
 .box{
     transition: transform .5s ease-in-out;
-    height: 500px;
-    width: 800px;
+    height: 600px;
+    width: 720px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px ;
     gap: 30px;
