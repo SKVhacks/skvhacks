@@ -1,4 +1,4 @@
-<img align="right" height="300" src="[https://i.pinimg.com/originals/9a/5e/9e/9a5e9e545a0bd58fe3bd48a52d1a766f.gif"](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b92d0a2-1467-4404-9de5-d520db2408ee/dgb10vz-ec5d575d-a9e1-4c81-bd70-0be112a9a5de.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzliOTJkMGEyLTE0NjctNDQwNC05ZGU1LWQ1MjBkYjI0MDhlZVwvZGdiMTB2ei1lYzVkNTc1ZC1hOWUxLTRjODEtYmQ3MC0wYmUxMTJhOWE1ZGUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AsgtC35FbexdufXXxj-2sJXiJXfBT-XO-6VWZ5jgMEU)  />
+<img align="right" height="300" src="https://i.pinimg.com/originals/9a/5e/9e/9a5e9e545a0bd58fe3bd48a52d1a766f.gif"  />
 
 ###
 
