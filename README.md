@@ -38,7 +38,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/SKVhacks/SKVhacks/output/snake.svg" alt="Snake animation" />
 
 ###
 
