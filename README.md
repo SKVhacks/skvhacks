@@ -2,11 +2,11 @@
 
 ###
 
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">Hey I'm Vishwa S.K</h1>
 
 ###
 
-<p align="left">My name is Vishwa S.K and I'm a U.G Student from Mannargudi.</p>
+<p align="left"> Front-end Developer & IOT Project Maker from India</p>
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning MERN<br>🎯 Goals: Till Nothing<br>🎲 Hobby: Always Electronic, Music.</p>
+<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning Java<br>👯I’m looking to collaborate on Arduino, STM32<br>🎲 Hobby: Always Electronic, Music.</p>
 
 ###
 
