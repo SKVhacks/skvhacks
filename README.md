@@ -1,4 +1,4 @@
-<img align="right" height="300" src="https://i.pinimg.com/originals/9a/5e/9e/9a5e9e545a0bd58fe3bd48a52d1a766f.gif"  />
+
 
 ###
 
@@ -8,7 +8,7 @@
 
 <p align="left"> Front-end Developer & IOT Project Maker from India</p>
 
-###
+<img align="right" height="300" src="https://i.pinimg.com/originals/9a/5e/9e/9a5e9e545a0bd58fe3bd48a52d1a766f.gif"  />
 
 <h2 align="left">About me</h2>
 
