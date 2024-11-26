@@ -54,7 +54,7 @@
 
 <div align="right">
 
-  <a href="www.linkedin.com/in/s-vishwa" target="_blank">
+  <a href="https://www.linkedin.com/in/s-vishwa" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   
