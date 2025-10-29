@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning Java<br>👯I’m looking to collaborate on Arduino, STM32<br>🎲 Hobby: Always Electronic, Music.</p>
+<p align="left">✨ Creating bugs since 2020<br>👯I’m looking to collaborate on Arduino, STM32<br>🎲 Hobby: Always Electronic, Music.</p>
 
 ###
 
